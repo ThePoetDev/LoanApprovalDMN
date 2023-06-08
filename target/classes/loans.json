@@ -1,0 +1,592 @@
+[
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "10000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "1026.48",
+    "totalPayment": "12367.76",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "10000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "1010.63",
+    "totalPayment": "12182.56",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "10000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "966.77",
+    "totalPayment": "11651.24",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "10000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "980.78",
+    "totalPayment": "11819.36",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "20000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "2052.97",
+    "totalPayment": "24735.64",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "20000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "2021.25",
+    "totalPayment": "24365.00",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "20000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "1933.55",
+    "totalPayment": "23302.60",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "20000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "1961.57",
+    "totalPayment": "23638.84",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "20000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "1230.79",
+    "totalPayment": "29638.96",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "20000",
+    "term": "12 ay",
+    "interest": "2.68",
+    "mountlyPayment": "1225.92",
+    "totalPayment": "29532.08",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "20000",
+    "term": "24 ay",
+    "interest": "2.84",
+    "mountlyPayment": "1252.01",
+    "totalPayment": "30148.24",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "30000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "3079.45",
+    "totalPayment": "37103.40",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "30000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "3031.88",
+    "totalPayment": "36547.56",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "30000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "2900.32",
+    "totalPayment": "34953.84",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "30000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "2942.35",
+    "totalPayment": "35458.20",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "30000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "1846.18",
+    "totalPayment": "44458.32",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "30000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "1838.87",
+    "totalPayment": "44297.88",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "30000",
+    "term": "24 ay",
+    "interest": "2.89",
+    "mountlyPayment": "1890.33",
+    "totalPayment": "45517.92",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "40000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "4105.93",
+    "totalPayment": "49471.16",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "40000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "4042.51",
+    "totalPayment": "48730.12",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "40000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "3867.09",
+    "totalPayment": "46605.08",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "40000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "3923.13",
+    "totalPayment": "47277.56",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "40000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "2461.57",
+    "totalPayment": "59277.68",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "40000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "2451.83",
+    "totalPayment": "59063.92 ",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "40000",
+    "term": "24 ay",
+    "interest": "2.89",
+    "mountlyPayment": "2520.43",
+    "totalPayment": "60690.32",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "50000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "5132.41",
+    "totalPayment": "61838.92",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "50000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "5053.14",
+    "totalPayment": "60912.68",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "50000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "4833.87",
+    "totalPayment": "58256.44",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "50000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "4903.92",
+    "totalPayment": "59097.04",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "50000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "3076.97",
+    "totalPayment": "74097.28",
+    "creditNote": "1000",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "50000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "3064.79",
+    "totalPayment": "73829.96",
+    "creditNote": "1150",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "50000",
+    "term": "24 ay",
+    "interest": "2.89",
+    "mountlyPayment": "3150.54",
+    "totalPayment": "75862.96",
+    "creditNote": "1350",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "60000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "5132.41",
+    "totalPayment": "61838.92",
+    "creditNote": "1400",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "60000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "6063.76",
+    "totalPayment": "73095.12",
+    "creditNote": "1300",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "60000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "6045.73",
+    "totalPayment": "72848.76",
+    "creditNote": "1700",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "60000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "5884.70",
+    "totalPayment": "70916.40",
+    "creditNote": "1300",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB FinansBank",
+    "amount": "60000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "6158.90",
+    "totalPayment": "88916.64 ",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "60000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "3677.75",
+    "totalPayment": "88596.00",
+    "creditNote": "1500",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "60000",
+    "term": "24 ay",
+    "interest": "2.44",
+    "mountlyPayment": "6045.73",
+    "totalPayment": "72848.76",
+    "creditNote": "1500",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "70000",
+    "term": "12 ay",
+    "interest": "2.69",
+    "mountlyPayment": "7185.38",
+    "totalPayment": "86574.56",
+    "creditNote": "1100",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "70000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "7074.39",
+    "totalPayment": "85277.68",
+    "creditNote": "1400",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "70000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "7053.35",
+    "totalPayment": "84990.20",
+    "creditNote": "1600",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "70000",
+    "term": "12 ay",
+    "interest": "2.08",
+    "mountlyPayment": "6865.48",
+    "totalPayment": "82735.76",
+    "creditNote": "1500",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "80000",
+    "term": "12 ay",
+    "interest": "2.48",
+    "mountlyPayment": "9172.98",
+    "totalPayment": "110515.76",
+    "creditNote": "1500",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "ING Bank",
+    "amount": "80000",
+    "term": "12 ay",
+    "interest": "1.89",
+    "mountlyPayment": "8060.97",
+    "totalPayment": "97131.64",
+    "creditNote": "1500",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Garanti BBVA",
+    "amount": "80000",
+    "term": "12 ay",
+    "interest": "5.65",
+    "mountlyPayment": "10105.73",
+    "totalPayment": "121668.76",
+    "creditNote": "1260",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "10000",
+    "term": "6 ay",
+    "interest": "2.69",
+    "mountlyPayment": "1868.21",
+    "totalPayment": "11259.76",
+    "creditNote": "900",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "20000",
+    "term": "6 ay",
+    "interest": "2.69",
+    "mountlyPayment": "3736.43",
+    "totalPayment": "22518.58",
+    "creditNote": "1000",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "30000",
+    "term": "6 ay",
+    "interest": "2.69",
+    "mountlyPayment": "5604.64",
+    "totalPayment": "33777.84",
+    "creditNote": "1250",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "40000",
+    "term": "6 ay",
+    "interest": "2.69",
+    "mountlyPayment": "7472.86",
+    "totalPayment": "45037.84",
+    "creditNote": "1240",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "50000",
+    "term": "6 ay",
+    "interest": "2.69",
+    "mountlyPayment": "9341.07",
+    "totalPayment": "56296.42",
+    "creditNote": "1300",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "50000",
+    "term": "6 ay",
+    "interest": "2.48",
+    "mountlyPayment": "9260.49",
+    "totalPayment": "55837.94",
+    "creditNote": "1300",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "40000",
+    "term": "6 ay",
+    "interest": "2.48",
+    "mountlyPayment": "7408.39",
+    "totalPayment": "44670.34",
+    "creditNote": "1400",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+  "bankname": "ING Bank",
+  "amount": "40000",
+  "term": "6 ay",
+  "interest": "1.99",
+  "mountlyPayment": "5015.32",
+  "totalPayment": "45337.88",
+  "creditNote": "1500",
+  "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "10000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "615.39",
+    "totalPayment": "14819",
+    "creditNote": "1100",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "10000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "612.96",
+    "totalPayment": "14766",
+    "creditNote": "1200",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "QNB Finansbank",
+    "amount": "70000",
+    "term": "24 ay",
+    "interest": "2.71",
+    "mountlyPayment": "4307.75",
+    "totalPayment": "103736",
+    "creditNote": "1800",
+    "creditType": "İhtiyaç Kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "10000",
+    "term": "24 ay",
+    "interest": "2.68",
+    "mountlyPayment": "4290.71",
+    "totalPayment": "103362.04",
+    "creditNote": "1700",
+    "creditType": "Taşıt kredisi"
+  },
+  {
+    "bankname": "Akbank",
+    "amount": "80000",
+    "term": "24 ay",
+    "interest": "4.43",
+    "mountlyPayment": "6104.51",
+    "totalPayment": "146948.24",
+    "creditNote": "1900",
+    "creditType": "Taşıt kredisi"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "label": "Ad",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1pq6dkf",
+        "columns": null
+      },
+      "id": "Field_05d1rr6",
+      "key": "name"
+    },
+    {
+      "label": "Soyad",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0hqtowu",
+        "columns": null
+      },
+      "id": "Field_1u6swfg",
+      "key": "surname"
+    },
+    {
+      "label": "Tc Kimlik Numarası",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_05z9zzu",
+        "columns": null
+      },
+      "id": "Field_0gme140",
+      "key": "identity",
+      "properties": {},
+      "validate": {
+        "required": true,
+        "pattern": "^\\d{11}$"
+      }
+    },
+    {
+      "label": "E-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ncz9ug",
+        "columns": null
+      },
+      "id": "Field_0rhftwi",
+      "key": "email",
+      "validate": {
+        "required": true,
+        "pattern": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "İhtiyaç Kredisi",
+          "value": "İhtiyaç Kredisi"
+        },
+        {
+          "label": "Konut Kredisi",
+          "value": "Konut Kredisi"
+        },
+        {
+          "label": "Taşıt Kredisi",
+          "value": "Taşıt Kredisi"
+        }
+      ],
+      "label": "Kredi Türü",
+      "type": "select",
+      "layout": {
+        "row": "Row_150b3a5",
+        "columns": null
+      },
+      "id": "Field_1um87b8",
+      "key": "creditType",
+      "defaultValue": "İhtiyaç Kredisi",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "6 ay",
+          "value": "6 ay"
+        },
+        {
+          "label": "12 ay",
+          "value": "12 ay"
+        },
+        {
+          "label": "18 ay",
+          "value": "18 ay"
+        },
+        {
+          "label": "24 ay",
+          "value": "24 ay"
+        }
+      ],
+      "label": "Vade",
+      "type": "select",
+      "layout": {
+        "row": "Row_10yu9ef",
+        "columns": null
+      },
+      "id": "Field_0lrzrq7",
+      "key": "term",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "6 ay"
+    },
+    {
+      "label": "Kredi Notu",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f2lee9",
+        "columns": null
+      },
+      "id": "Field_00sfnr8",
+      "key": "creditNote",
+      "validate": {
+        "required": true,
+        "pattern": "^(?:0|[1-9]\\d{0,2}|1[0-8]\\d{2}|1900)$"
+      },
+      "description": "Kredi notu (0-1900) değerleri arasındadır."
+    },
+    {
+      "label": "Aylık Maaş",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1j02bfo",
+        "columns": null
+      },
+      "id": "Field_042ao06",
+      "key": "salary",
+      "validate": {
+        "required": true,
+        "pattern": "^\\d+$"
+      },
+      "properties": {},
+      "disabled": false
+    },
+    {
+      "label": "İstenilen Kredi Miktarı",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10xa5kr",
+        "columns": null
+      },
+      "id": "Field_1vxpj7n",
+      "key": "requestedCreditAmount",
+      "validate": {
+        "required": true,
+        "pattern": "^\\d+$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ComposeForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

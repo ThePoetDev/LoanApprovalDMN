@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wk08sy",
+        "columns": null
+      },
+      "id": "Field_1ndru31",
+      "key": "successMessage",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "OffersForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

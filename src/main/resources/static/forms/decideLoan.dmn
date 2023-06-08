@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="DecideLoan" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="loandmn" name="Loan Approval DMN Table">
+    <decisionTable id="DecisionTable_0ituk2f" biodi:annotationsWidth="400">
+      <input id="Input_1" label="Mountly Income" camunda:inputVariable="inputIncome">
+        <inputExpression id="InputExpression_1" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0gkqqam" label="Credit Note" camunda:inputVariable="inputCredit">
+        <inputExpression id="LiteralExpression_1l1cm2s" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0ldqumj" label="Credit Amount">
+        <inputExpression id="LiteralExpression_1e446fz" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Loan Approval" typeRef="boolean" />
+      <rule id="DecisionRule_0ro323n">
+        <inputEntry id="UnaryTests_01it0wh">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_02nypas">
+          <text>&lt;500</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0ofvur4">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1fd5g54">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_15x1l10">
+        <inputEntry id="UnaryTests_0qayktn">
+          <text>[5000..10000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0qsjtlj">
+          <text>[500..800]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1yyre6z">
+          <text>&lt;30000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0jedpzm">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0789svz">
+        <inputEntry id="UnaryTests_0j7jmlf">
+          <text>[10000..30000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0efnz88">
+          <text>[500..800]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0k6l5ep">
+          <text>&lt;40000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0km13hl">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1umtrb0">
+        <inputEntry id="UnaryTests_0xvtucg">
+          <text>[5000..10000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04xkl85">
+          <text>[800..1200]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_141f2m1">
+          <text>&lt;50000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1qwxf9q">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1doyveg">
+        <inputEntry id="UnaryTests_0xxpfoh">
+          <text>[10000..30000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19gmwew">
+          <text>[800..1200]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0v3yik1">
+          <text>&lt;60000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1dn228x">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1g7uz4e">
+        <inputEntry id="UnaryTests_12svubj">
+          <text>[5000..10000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1e5iwa6">
+          <text>[1200..1800]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_10aj2vf">
+          <text>&lt;70000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qxn88q">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1amuuw0">
+        <inputEntry id="UnaryTests_0psqswt">
+          <text>[10000..30000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0d9xtm7">
+          <text>[1200..1800]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0asnc6n">
+          <text>&lt;80000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_07ru1nx">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1l0wgjn">
+        <inputEntry id="UnaryTests_1erg24j">
+          <text>[10000..30000]</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1o1cgr2">
+          <text>&gt;=1800</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0xb0ix2">
+          <text>&lt;90000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1jbyds4">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0cexqfz">
+        <inputEntry id="UnaryTests_1hamm9v">
+          <text>&gt;=30000</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1yft7j6">
+          <text>&gt;1500</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_00mkj2x">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_00zoqvk">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_19u1wl4">
+        <inputEntry id="UnaryTests_0qantpg">
+          <text>&lt;=30000</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_02hdy1z">
+          <text>&gt;1200</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1bdv21g">
+          <text>&lt;100000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1h8rysc">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="loandmn">
+        <dc:Bounds height="80" width="180" x="160" y="80" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
